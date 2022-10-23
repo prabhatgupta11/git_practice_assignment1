@@ -1,6 +1,6 @@
 let str="ram";
 let jhola="";
-for(i=0;i<=str.length-1;i++)
+for(i=str.length-1; i>=0; i--)
   {
   jhola += str[i];
   }
@@ -10,6 +10,6 @@ if(jhola==str)
    }
  else
   {
-    console.log("not palim");
+    console.log("not palindrome");
   }
   
