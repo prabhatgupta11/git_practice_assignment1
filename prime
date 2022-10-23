@@ -4,11 +4,15 @@ for(i=1;i<=num;i++)
 {
    if(num%i==0)
  {
-  count++
+  count++ ;
   }
 }
  
-if(count==5)
+if(count==2)
 {
-console.log("prime no")
+console.log("prime no");
+}
+else 
+{
+console.log("Not prime no.");
 }
